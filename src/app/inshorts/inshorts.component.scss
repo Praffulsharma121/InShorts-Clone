@@ -1,0 +1,67 @@
+.redhead{
+    // width: 900px;
+    // height: 48px;
+    background-color: #ED4134;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    box-shadow: 3px 2.5px 2.5px rgba(51, 49, 49, 0.25);
+}
+
+.line{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    float: left;
+    font-weight: 300px;
+    text-indent: 45px;
+    margin-top: 12px;
+}
+
+.short{
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgba(214, 209, 209, 0.35);
+}
+
+.title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 25px;
+    // letter-spacing: 0em;
+    text-align: left;
+    color: #44444d;
+}
+
+.shortby{
+    font-weight: 200;
+    line-height: 19px;
+    text-align: left;
+    margin-top: -10px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0em;
+    color: #686a79;
+}
+
+.shorttext{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 80;
+    line-height: 22px;
+    text-align: left;
+    color: #44444d;
+}
+
+.opened{
+    position: relative;
+    z-index: 999;
+}
+
+.closed{
+    position: relative;
+    z-index: 10;
+}

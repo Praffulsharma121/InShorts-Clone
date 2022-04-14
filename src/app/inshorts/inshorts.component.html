@@ -1,0 +1,61 @@
+<!-- <app-header (category)="categoryTypeSet($event)"></app-header>
+<div class="container-fluid text-center" style="margin-top: 120px;">
+    <div class="redhead d-none d-md-block text-center col-12">
+        <span class="line">For the best experience use <b>inshorts</b> app on you smartphone</span>
+        <a><span class="btns">
+            <a href="https://apps.apple.com/us/app/news-in-shorts/id892146527"><img src="assets/images/appstore.png" style="max-height: 38px; margin-top: 5px; margin-left: 67px;"></a>
+              <a href="https://play.google.com/store/apps/details?id=com.nis.app&referrer=utm_source%3DNews%2520In%2520Shorts%2520Website"><img src="assets/images/playstore.png" style="max-height: 38px; margin-left: 23px;"></a>
+        </span></a>
+    </div>
+    <div class="card mx-0 my-3 short" style="max-width: 900px; min-height: 280px; min-width: 375px;" *ngFor="let short of shorts">
+        <div class="row g-0">
+          <div class="col-md-5 mx-2 my-2">
+            <img [src]="short.imageUrl" class="img-fluid rounded-start" style="min-width: 290px; min-height: 280px; border-radius: 5px;">
+          </div>
+          <div class="col-md-5" style="margin-left: -10px; min-width: 57%;">
+            <div class="card-body" style="margin-top: -10px; margin-left: -30px;">
+              <h5 class="card-title title">{{short.title}}</h5>
+              <p class="card-text shortby"><small class="text-muted"><b>short</b> {{short.author}} / {{short.time}} on {{short.date}}</small></p>
+              <p class="card-text shorttext">{{short.content}}</p>
+              <p class="card-text" style="margin-top: -7px;"><small><b>read more at {{short.domainName}}</b></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div> -->
+
+<app-header (category)="categoryTypeSet($event)"></app-header>
+<div class="container-fluid text-center" style="margin-top: 120px; position: relative; z-index: 99;">
+  <div class="container text-center redhead d-none d-lg-block d-md-block" style="max-width: 900px; min-height: 48px; max-height: 48px;">
+    <div class="row">
+      <div class="col-7 my-3">
+        For the best experience use <b>inshorts</b> app on you smartphone
+      </div>
+      <div class="col-5 my-2">
+        <a href="https://apps.apple.com/us/app/news-in-shorts/id892146527" class="mx-2"><img src="assets/images/appstore.png" height="35px" width="auto"></a>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.nis.app&referrer=utm_source%3DNews%2520In%2520Shorts%2520Website"><img
+          src="assets/images/playstore.png"  height="35px" width="auto"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center" style="max-width: 920px;">
+    <div class="card my-3 short" *ngFor="let short of shorts" style="min-width: fit-content;  min-height: 280px">
+      <div class="row g-0">
+        <div class="col-md-5 mx-2 my-2">
+          <img [src]="short.imageUrl" class="img-fluid rounded-start" style="min-width: 290px; min-height: 280px; border-radius: 5px;">
+        </div>
+        <div class="col">
+          <div class="card-body">
+            <h5 class="card-title title">{{short.title}}</h5>
+            <p class="card-text shortby"><small class="text-muted"><b>short</b> {{short.author}} / {{short.time}} on {{short.date}}</small></p>
+            <p class="card-text shorttext">{{short.content}}</p>
+            <p class="card-text float-left" *ngIf="short.domainName" style="margin-top: -7px;"><small><b>read more at {{short.domainName}}</b></small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

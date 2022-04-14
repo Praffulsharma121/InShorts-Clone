@@ -1,0 +1,19 @@
+<mat-drawer-container  class="example-container" autosize style="background-color: transparent;">
+    <mat-drawer #drawer mode="side" style="background-color: #303036;" class="example-sidenav">
+      <div style="margin-left: 33px; margin-top: 17px;">
+        <button class="btn" style="border-radius: 5px 0px 0px 5px;">English</button>
+        <button class="btn" style="border-radius: 0px 5px 5px 0px;">हिन्दी</button>
+      </div>
+      <hr>
+      <p style="color: #808290; margin-left: 10px;">Categories</p>
+      <div *ngFor="let categorie of categories; let i = index" class="cat">
+        <div class="btn" style="color: white; padding: 7px; font-family: 'Nunito', sans-serif; font-weight: 10px;
+        font-size: 16px;" (click)="changeCategory(i)">
+            {{categorie}}
+        </div>
+      </div>
+    </mat-drawer>
+    <button mat-icon-button (click)="drawer.toggle() && changeMenu()" style="margin-left: 20px; margin-top: 15px; background-color: transparent;">
+        <mat-icon style="font-size: 27px; font-weight: 10px;">{{tab}}</mat-icon> <span style="margin-left: 10px;">{{tabType}}</span>
+    </button>
+</mat-drawer-container>
