@@ -1,4 +1,7 @@
-# InshortsClone
+# InShortsClone
+
+The Clone of the populer News App in India
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
