@@ -7,9 +7,9 @@ The Clone of the populer News App in India
 ![Screenshot 2022-04-14 at 5 16 44 PM](https://user-images.githubusercontent.com/63968420/163385733-8c413f5d-64b8-48bb-b951-c4ce33e1185d.png)
 
 <p float="left"> 
-  <img src="https://user-images.githubusercontent.com/63968420/163386757-5492376b-9427-45d1-a3cb-484d26ae942b.jpg" width="400" height="850">
+  <img src="https://user-images.githubusercontent.com/63968420/163386757-5492376b-9427-45d1-a3cb-484d26ae942b.jpg" width="300" height="700">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://user-images.githubusercontent.com/63968420/163385852-161edf7b-0a03-427c-ab5c-b70f5a3b6f19.jpg" width="400" height="850">
+  <img src="https://user-images.githubusercontent.com/63968420/163385852-161edf7b-0a03-427c-ab5c-b70f5a3b6f19.jpg" width="300" height="700">
 </p>
 
   <img src="https://user-images.githubusercontent.com/63968420/163386866-fb59184b-56a3-47d6-bef3-2667f32c650b.jpg" width="400" height="850">
